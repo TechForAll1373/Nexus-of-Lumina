@@ -1,0 +1,46 @@
+# 🌌 .gitignore for Nexus of Lumina
+# A quantum-clean repo for a multichain portal
+
+# IDE & Editor Artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local Development Build Artifacts
+/dist
+/build
+/out
+/.next
+/node_modules
+
+# Environment & Secrets (just in case)
+.env
+.env.local
+.env.*.local
+
+# Logs & Temp Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS Generated
+.DS_Store?
+ehthumbs.db
+Icon?
+._*
+
+# Service Worker Cache (dev only — sw.js itself SHOULD be tracked!)
+/sw.js.cache
+/sw-debug.log
+
+# Backup & Swap Files
+*~
+*.bak
+*.tmp
+
+# Ignore nothing that shines ✨
+# All magic (HTML, CSS, JS, SVG) must be versioned.
